@@ -261,7 +261,9 @@ footer img {
 }
 
 footer p {
-    margin-top: 25px;
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 0.8rem;
 }
 
 footer form {
@@ -291,6 +293,39 @@ footer .detail {
 
 #voltarTopo img {
     height: 20px;
+}
+
+input[type=text],[type=email] {
+    border: 2px solid var(--color-primary);
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+
+}
+
+input[type=submit] {
+    font-weight: 900;
+    font-size: 1.1rem;
+    color: white;
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.msg {
+    height: 150px;
+}
+
+inputs {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
 }
 
   /* responsive */
