@@ -357,12 +357,16 @@ inputs {
     }
 
     #banner-info {
-        width: 60%;    
+        text-align: center;
     }
 
     #banner-info p {
         margin: 0;
         width: auto;
+    }
+
+    #banner-info img {
+        height: 30vh;
     }
 
     /* about */
@@ -403,6 +407,22 @@ inputs {
         width: 85%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #residents-section img {
+        height: 15vh;
+    }
+
+    .photos {
+        display: grid;
+        justify-content: center;
+        grid-gap: 10px;
+        grid-template-rows: 100px 100px;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-areas: 
+            "davi toni rat"
+            "mach pedr hulk"
+        ;
     }
 
     /* footer */
